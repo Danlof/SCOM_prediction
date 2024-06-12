@@ -12,4 +12,7 @@
     - So if the p-value of the test < than the significance level (0.05) we reject the null hypothesis and conclude that the timeseries is indeed stationary.
 
 #### step :2 Difference the model if it is non-stationary 
-- See how the autocorrelation plot looks like
+- See how the autocorrelation plot looks like. we use `plot_acf` for autocorrelation which is useful for :
+    - Identifying the order of an MA process
+    - Detecting seasonality in a timeseries 
+    - Selecting appropriate models for timeseries analysis
