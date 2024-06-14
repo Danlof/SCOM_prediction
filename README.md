@@ -17,3 +17,13 @@
 - Hence we can conclude that the closing price of SCOM can be approximated by a random walk process.
 
 #### step :4 forecasting a random walk
+- from the `prediction.py` we will be predicting the stock price using 3 methods and compare there results:
+    - the mean
+    - last known value 
+    - using drift 
+
+    
+#### step 5 : perform comparison 
+- We can further demonstrate that by calculating the mean squared error (MSE) of our
+forecasts.
+- we can also find the mean squared error of the next time step
